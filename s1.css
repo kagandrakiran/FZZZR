@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap");
+
+body {
+    font-family: "Gloria Hallelujah";
+    font-size: 50px;
+    background-color: skyblue;
+    max-height: 33.3vh;
+}
+
+.quiz_zone {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: auto;
+    margin: 200px 5px 0px 5px;
+}
+
+.response {
+    display: flex;
+}
+
+.filler_div {
+    flex: 1;
+}
+
+.example_c {
+    color: #494949 !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ffffff;
+    padding: 2px;
+    border: 4px solid #494949 !important;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+}
+
+.example_c:hover {
+    color: #ffffff !important;
+    background: #f6b93b;
+    border-color: #f6b93b !important;
+    transition: all 0.4s ease 0s;
+}
+
+.container1 {
+    justify-content: space-between;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    height: 0vh;
+    align-items: flex-end;
+   box-sizing: initial;
+
+}
+input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    border: 4px solid #494949 !important;
+    margin: 0px 100px 0px 100px;
+}
+
+:checked~.icon-box {
+    background-color: #f6b93b;
+}
+
+.icon-box {
+    background: #EBF5FC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px 0px 50px;
+    border: 4px solid #494949 !important;
+}
